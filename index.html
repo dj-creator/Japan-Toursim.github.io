@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corn Co Premium</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+<body>
+    <h1>Corn Co Premium</h1>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li>
+                    <a class="Yummy" href="home">Home</a>
+                </li>
+                <li>
+                    <a href="#news">Information</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="flex">
+        <div style="flex-grow: 2"></div>
+        <form id="formy" style="flex-grow:1">
+            <fieldset class="curve">
+                <h2>Sign Up For Premium Here</h2>
+                <br>
+                <legend></legend>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="First  "pattern="[a-zA-Z]{2,}" required>
+                <br>
+                <br>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="last " pattern="[a-zA-Z]{2,}"  required>
+                <br>
+                <br>
+                <label for="Em">Email</label>
+                <input type="text" id="Em" placeholder="Email" pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*$"  required>
+                <br>
+                <br>
+                <label for="num">Phone Number </label>
+                <input type="tel" id="num" placeholder="Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <br>
+                <br>
+                <Label for="ad">Address</Label>
+                <input type="text" id="ad" placeholder="address" pattern="[0-9]{4,6} [A-Za-z0-9]{3,}" required>
+                <br>
+                <br>
+            
+                <br>
+                <p>Whats Your Facorite Kind Of Corn-</p>
+                <label for="c1">Mexican Corn</label>
+                <input type="radio" id="c1" name="Corn" value="Corn">
+                <br>
+                <label for="c2">Butterd Corn</label>
+                <input type="radio" id="c2" name="Corn" value="Corn">
+                <br>
+                <label for="c3">Pop Corn</label>
+                <input type="radio" id="c3" name="Corn" value="Corn">
+                <br>
+                <label for="c4">sweet corn</label>
+                <input type="radio" id="c4" name="corn" value="corn">
+                <br>
+                <br>
+                <label for="mny">How Much Money You Got ( Im Broke-Im Ballin)</label>
+                <input type="range" id="mny" name="money amount" value="money "><br><br>
+
+
+                <button type="submit">
+                    submit
+                </button>
+            </fieldset>
+        </form>
+        <div style="flex-grow:2"></div>
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>
